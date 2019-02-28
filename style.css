@@ -1,0 +1,368 @@
+body {
+  background-color: #F8F8F8
+}
+
+hr{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*Suggestions division css features below */
+#suggestions{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  list-style-type: none;
+  width: 42.5%;
+  height: 300px;
+  margin-left: 256px;
+  margin-bottom: 400px;
+  margin-top: 55px;
+  border-radius: 3px;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+
+#suggestionsForYouSeeAll{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#followAccounts{
+  display: flex;
+  flex-direction: row;
+}
+
+#suggestionsFont{
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
+}
+
+#seeAllFont{
+  font-size: 13px;
+  color: 	#4d94ff;
+  font-weight: bold;
+  margin-right: 22px;
+}
+
+.account{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 3px;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+
+.followSpriteAndX{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 14px;
+  margin-left: 3px;
+}
+
+.usernameFollow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.userFollow{
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.follow{
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: #4d94ff;
+  border-radius: 3px;
+  width: 130px;
+  font-size: 16px;
+  color: white;
+}
+
+#seemore{
+  margin-top: 90px;
+  margin-right: 2px;
+  margin-left: 0;
+}
+
+/* Main image css features below */
+#mainFeed{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 6%;
+  list-style-type: none;
+}
+
+.writeComment{
+  border: none;
+  border-color: transparent;
+  width: 96%;
+  margin-left: 20px;
+}
+
+.userFont2{
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.userFont3{
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.hoursFont2{
+  font-size: 10px;
+  color: gray;
+  margin-left: 10.5px;
+  margin-top: 10px;
+}
+
+.likes{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.userImage{
+  margin: 5px;
+}
+
+.nameAndProfile{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 613px;
+  height: 62px;
+  margin-top: 55px;
+  border-radius: 4px;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+.userReact{
+  background-color: white;
+  width: 610px;
+  height: 260px;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+
+.reactBar{
+  display: flex;
+  flex-direction: row;
+}
+
+.heartedIcon{
+  margin-top: 8px;
+  margin-left: 9px;
+}
+
+.shareIcon{
+  margin-top: 4px;
+}
+
+.bookmarkIcon{
+  margin-top: 7px;
+  margin-left: 460px;
+}
+
+.caption{
+  display: inline;
+  font-size: 14px;
+  color: black;
+  font-weight: normal;
+}
+
+/* Sidebar css features below */
+#sidebarScroll{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 160px;
+  padding-top: 125px;
+  list-style-type: none;
+  position: fixed;
+  right: 430px;
+  top: 5px;
+}
+
+#sidebar1{
+  display: flex;
+  flex-direction: row;
+}
+
+#usernameNameBox{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+#nameFont{
+  font-size: 12px;
+  margin-left: 6px;
+  color: gray;
+}
+
+#storiesAndWatch{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: white;
+  height: 37px;
+}
+
+#sidebar2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 6%;
+  width: 290px;
+  height: 230px;
+  border-radius: 8px;
+  background-color: white;
+  overflow: scroll;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+
+#storiesFont{
+  margin-top:10px;
+  margin-right:150px;
+  font-size: 14px;
+  margin-left: 20px;
+  color: gray;
+}
+
+#watchAllFont{
+  margin-top:10px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+
+.story1{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-left: 15px;
+  width: 100%;
+  margin-top: 60px; 
+
+}
+
+#firstStory{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.userFont{
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+}
+
+.usernameAndTime{
+  display: flex;
+  flex-direction: column;
+}
+
+.hoursFont{
+  font-size: 10px;
+  color: gray;
+}
+
+/* Header css features below */
+#headerScrollBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  height: 10.5%;
+  border: solid #DCDCDC;
+  border-width: thin;
+}
+
+#header1{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-basis: 45%
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+}
+
+#search{
+  width: 220px;
+  height: 28px;
+  background-color: #F8F8F8;
+  /* TODO fix icon below */
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  border-radius: 3px;
+}
+
+::placeholder {
+  color: 	#BEBEBE;
+  padding: 0 10px 0 29px;
+  font-size: 14px;
+}
+
+#search:focus {
+    background-color: white;
+}
+
+#header3{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: space-between;
+  margin-right: 105px;
+}
+
+#discoverIcon{
+  margin: 15px;
+}
+
+#heartIcon{
+  margin: 15px;
+}
+
+#personIcon{
+  margin: 15px;
+}
+
+#instagramIcon{
+  width: 50px;
+  border-right: 1px solid #bbb;
+  margin: 25px;
+}
