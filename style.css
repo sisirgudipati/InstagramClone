@@ -100,7 +100,7 @@ hr{
   display: flex;
   flex-direction: column;
   margin-left: 15%;
-  margin-top: 6%;
+  margin-top: 70px;
   list-style-type: none;
 }
 
@@ -193,11 +193,11 @@ hr{
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 160px;
+  width: 23%;
   padding-top: 125px;
   list-style-type: none;
   position: fixed;
-  right: 430px;
+  right: 15%;
   top: 5px;
 }
 
@@ -222,18 +222,34 @@ hr{
 #storiesAndWatch{
   display: flex;
   flex-direction: row;
+  padding-top: 10px;
   position: fixed;
   background-color: white;
-  height: 37px;
+  width: 19%;
+}
+#storiesFont{
+  margin-top:10px;
+  margin-right:150px;
+  font-size: 14px;
+  margin-left: 20px;
+  color: gray;
+  height: 25px;
+}
+
+#watchAllFont{
+  margin-top:10px;
+  font-size: 12px;
+  height: 25px;
+  color: black;
+  font-weight: bold;
 }
 
 #sidebar2{
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
-  margin-left: 6%;
+  margin-top: 19px;
   width: 290px;
-  height: 230px;
+  height: 200px;
   border-radius: 8px;
   background-color: white;
   overflow: scroll;
@@ -241,29 +257,13 @@ hr{
   border-width: thin;
 }
 
-#storiesFont{
-  margin-top:10px;
-  margin-right:150px;
-  font-size: 14px;
-  margin-left: 20px;
-  color: gray;
-}
-
-#watchAllFont{
-  margin-top:10px;
-  font-size: 12px;
-  color: black;
-  font-weight: bold;
-}
-
 .story1{
   display: flex;
   flex-direction: row;
-  height: 100%;
+  height: 70px;
   margin-left: 15px;
   width: 100%;
-  margin-top: 60px; 
-
+  margin-top: 61px;
 }
 
 #firstStory{
@@ -271,7 +271,7 @@ hr{
   flex-direction: row;
   margin-left: 15px;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 43px;
 }
 
 .userFont{
@@ -289,6 +289,27 @@ hr{
   font-size: 10px;
   color: gray;
 }
+
+#links1{
+  margin-top: 7px;
+  margin-left: 2px;
+  font-size: 10px;
+  color: gray;
+}
+#links2{
+  margin-left: 2px;
+  font-size: 10px;
+  color: gray;
+}
+
+#links3{
+  margin-top: 10px;
+  margin-left: 2px;
+  font-size: 12px;
+  color: gray;
+}
+
+
 
 /* Header css features below */
 #headerScrollBar {
@@ -365,4 +386,60 @@ hr{
   width: 50px;
   border-right: 1px solid #bbb;
   margin: 25px;
+}
+
+@media (max-width: 1290px){
+  #sidebarScroll{
+    display: none;
+  }
+
+  #links1{
+    display: none;
+  }
+
+  #links2{
+    display: none;
+  }
+  #links3{
+    display: none;
+  }
+}
+
+
+@media (max-width: 1200px){
+
+    #mainFeed{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-left: 22%;
+    }
+    #suggestions{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-left: 10%;
+    }
+
+    .accounts{
+      display: flex;
+      flex-direction row;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-left: 10%;
+      margin-top: 2%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+    }
+    .followAccounts{
+      display: flex;
+      flex-direction: row;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-left: 10%;
+    }
+
 }
